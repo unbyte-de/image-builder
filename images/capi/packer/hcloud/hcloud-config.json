@@ -1,5 +1,5 @@
 {
-  "containerd_wasm_shims_runtimes": "spin,slight",
+  "containerd_wasm_shims_runtimes": "lunatic,slight,spin,wws",
   "hcloud_location": "{{env `HCLOUD_LOCATION`}}",
   "image_name": "cluster-api-{{user `build_name`}}-{{user `kubernetes_semver`}}-{{user `build_timestamp`}}",
   "server_type": "cx22",
